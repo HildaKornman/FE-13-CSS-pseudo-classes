@@ -1,0 +1,64 @@
+/* Part 1 */
+
+nav {
+    margin-top: 15px;
+}
+
+.first:hover {
+    color: lightblue;
+    font-weight: bold;
+}
+
+.second:active {
+    color: red;
+    font-style:italic;
+}
+
+.third:visited {
+    color: yellow;
+}
+
+main textarea:focus {
+    color: green;
+    font-size: 20px;
+}
+
+/* Part 2 */
+
+nav2 ul {
+    display:flex;
+    flex-direction:row;
+    list-style-type:none;
+    padding-left:0;
+}
+
+nav2 ul li, nav2 ul li a {
+    color: white;
+    background-color:darkblue;
+}
+
+nav2 ul li a {
+    margin-left:15px;
+}
+
+nav2 ul li:hover{
+    background-color:lightblue;
+}
+
+nav2 ul li a:hover{
+    background-color:lightblue;
+}
+
+nav2 ul li a:focus {
+    border: 3px solid aqua;
+}
+
+nav2 ul li, nav2 ul li a {
+    padding: 15px 15px 15px 0px;
+}
+
+.currentPage {
+    background-color:gray;
+    padding: 20px;
+    margin-left:0;
+}
